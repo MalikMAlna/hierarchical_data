@@ -6,4 +6,8 @@ urlpatterns = [
          views.index,
          name='homepage'
          ),
+    path('file-add/',
+         views.fileadd,
+         name='file-add'
+         ),
 ]
